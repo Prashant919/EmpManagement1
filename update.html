@@ -1,0 +1,12 @@
+<div> 
+ <div style="text-align:center">Update Employee</div>
+ <div>Employee Id: <input style="float:right;height:20px" type="text"  ng-model="emp.id" /></div>
+ <div>First Name: <input style="float:right;height:20px" type="text"  ng-model="emp.fn" /></div>
+ <div>Last Name: <input style="float:right;height:20px" type="text"  ng-model="emp.ln" /></div>
+ <div>Employee Location: <input style="float:right;height:20px" type="text"  ng-model="emp.lo" /></div>
+ <div>Employee Position: <input style="float:right;height:20px" type="text"  ng-model="emp.po" /></div>
+ <div>Employee Gender:<span style="float:right"><input type="radio" name="gender" value="male" ng-model="emp.ge" checked> Male
+  <input type="radio" name="gender" value="female" ng-model="emp.ge"> Female</span></div>
+
+   <div  style="text-align:center"><button style="align:center" ng-click="updateEmp()">Update</button></div>
+</div>
